@@ -1,0 +1,20 @@
+if (isJudge)
+{	
+	printf("Success Effect\n");
+	_explosionSprite->Play();
+	_score += 100;
+	_combo++;
+	itr.item()->SetLive(false);
+	if (_combo >= _maxCombo) {
+		_maxCombo = _combo;
+		Track::SetCombo(_maxCombo);
+	}
+}
+
+노트 맞을시 콤보점수 증가
+
+trahck.h
+배경, judgeline, explosion, faileffect 에대한 변수 선언 되어있음
+
+이미지를 넣을 때는 넣고자하는 이미지에 해당하는 정보를 script 파일의 다른 csv파일과 같은 형식으로 저장한 후에
+sprite( ) 안에 이미지 파일 값을 넣으면 된다.
