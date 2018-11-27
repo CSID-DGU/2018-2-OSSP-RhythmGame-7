@@ -1,5 +1,6 @@
 # 2018-2-OSSP-RhythmGame-7
 
+SDL,SDL_ttf,SDL_image,SDL_mixer 전부 추가해햐 함.
 기존 오픈소스 : https://github.com/TonyChoiMS/RhythmGame
 
 2018/11/06
