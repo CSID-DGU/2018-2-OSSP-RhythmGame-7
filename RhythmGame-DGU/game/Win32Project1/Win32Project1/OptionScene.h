@@ -23,6 +23,7 @@ private:
 	Font* _test5;
 	Font* _test6;
 	Font* _test7;
+	Font* _test8;
 
 	OptionScene* _bpm;
 

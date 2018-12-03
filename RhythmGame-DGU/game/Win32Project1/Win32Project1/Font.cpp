@@ -4,7 +4,7 @@
 
 Font::Font(const char* fontName, int fontSize)
 {
-	_font = TTF_OpenFont("../Resources/Font/AgetaChubbyDemo.ttf", 35);
+	_font = TTF_OpenFont("../Resources/Font/arialbd.ttf", 35);
 	_fontColor = { 255, 255, 255 };
 
 	SetText("Score 0000", 11100, 800);

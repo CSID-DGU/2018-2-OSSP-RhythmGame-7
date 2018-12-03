@@ -17,7 +17,7 @@ StartMenuScene::~StartMenuScene()
 
 void StartMenuScene::Init()
 {
-	_backgroundSprite = new Sprite("backgroundspr1", true);
+	_backgroundSprite = new Sprite("startspr", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
 		GameSystem::GetInstance()->GetWindowHeight() / 2);
 

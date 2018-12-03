@@ -19,7 +19,7 @@ OptionScene::~OptionScene()
 
 void OptionScene::Init()
 {
-	_test = new Font("arialbd.ttf", 50);
+	
 	_test1 = new Font("arialbd.ttf", 50);
 	_test2 = new Font("arialbd.ttf", 50);
 	_test3 = new Font("arialbd.ttf", 50);
@@ -27,8 +27,9 @@ void OptionScene::Init()
 	_test5 = new Font("arialbd.ttf", 50);
 	_test6 = new Font("arialbd.ttf", 50);
 	_test7 = new Font("arialbd.ttf", 50);
+	_test8 = new Font("arialbd.ttf", 50);
 
-	_backgroundSprite = new Sprite("backgroundspr", true);
+	_backgroundSprite = new Sprite("option_bgd", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
 		GameSystem::GetInstance()->GetWindowHeight() / 2);
 
@@ -45,37 +46,37 @@ void OptionScene::Deinit()
 void OptionScene::Update(int deltaTime)
 {
 
-	char text[256];
-	sprintf(text, "SPEED");
-	_test->SetText(text, 450, 300);
-
 	char text1[256];
 	sprintf(text1, "X1");
-	_test1->SetText(text1, 450, 350);
+	_test1->SetText(text1, 300, 350);
 
 	char text2[256];
 	sprintf(text2, "X2");
-	_test2->SetText(text2, 450, 400);
+	_test2->SetText(text2, 300, 400);
 
 	char text3[256];
 	sprintf(text3, "X3");
-	_test3->SetText(text3, 450, 450);
+	_test3->SetText(text3, 300, 450);
 
 	char text4[256];
-	sprintf(text4, "KEY COUNT");
-	_test4->SetText(text4, 450, 500);
+	sprintf(text4, "5 KEY");
+	_test4->SetText(text4, 600, 350);
 
 	char text5[256];
-	sprintf(text5, "5 KEY");
-	_test5->SetText(text5, 450, 550);
+	sprintf(text5, "7 KEY");
+	_test5->SetText(text5, 600, 400);
 
 	char text6[256];
-	sprintf(text6, "7 KEY");
-	_test6->SetText(text6, 450, 600);
+	sprintf(text6, "9 KEY");
+	_test6->SetText(text6, 600, 450);
 
 	char text7[256];
-	sprintf(text7, "9 KEY");
-	_test7->SetText(text7, 450, 650);
+	sprintf(text7, "Press the 'B'");
+	_test7->SetText(text7, 850, 350);
+
+	char text8[256];
+	sprintf(text8, "Press the key for selecting your option");
+	_test8->SetText(text8, 300, 800);
 
 	_backgroundSprite->Update(deltaTime);
 
@@ -85,7 +86,6 @@ void OptionScene::Update(int deltaTime)
 void OptionScene::Render()
 {
 	_backgroundSprite->Render();
-	_test->Render();
 	_test1->Render();
 	_test2->Render();
 	_test3->Render();
@@ -93,6 +93,7 @@ void OptionScene::Render()
 	_test5->Render();
 	_test6->Render();
 	_test7->Render();
+	_test8->Render();
 }
 
 void OptionScene::KeyUp(unsigned int keyCode)
