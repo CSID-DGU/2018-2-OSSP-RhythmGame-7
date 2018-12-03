@@ -1,0 +1,11 @@
+﻿  skinutil.cpp
+c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skinutil.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skinoption.cpp
+c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skinoption.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skinlr2.cpp
+c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skin.cpp
+c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  main.cpp
+c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  코드를 생성하고 있습니다...
