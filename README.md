@@ -19,4 +19,4 @@ SDL,SDL_ttf,SDL_image,SDL_mixer 전부 추가해햐 함.
 - BMS 곡 추가 코드 연구
 
 2018/12/04 
-- BMS 곡 추가 및 구현 
+- BMS 곡 추가 및 구현, 
