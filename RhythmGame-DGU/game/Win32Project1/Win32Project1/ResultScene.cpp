@@ -61,7 +61,7 @@ void ResultScene::KeyUp(unsigned int keyCode)
 	case 
 	
 	SDLK_SPACE:
-		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_TITLE);
+		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_STARTMENU);
 		break;
 	default:
 		break;

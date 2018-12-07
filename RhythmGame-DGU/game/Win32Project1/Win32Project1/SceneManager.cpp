@@ -8,7 +8,7 @@
 #include "Option1.h"
 #include "Rank1.h"
 #include "Quit.h"
-
+#include "RankScene.h"
 
 SceneManager* SceneManager::_instance = 0;
 
@@ -70,6 +70,9 @@ void SceneManager::ChangeScene(eScene sceneType)
 		break;
 	case SCENE_OPTION1:
 		_scene = new Option1();
+		break;
+	case SCENE_RankScene:
+		_scene = new RankScene();
 		break;
 	case SCENE_RANK1:
 		_scene = new Rank1();

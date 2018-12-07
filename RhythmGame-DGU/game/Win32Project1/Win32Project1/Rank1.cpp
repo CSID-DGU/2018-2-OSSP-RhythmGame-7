@@ -57,11 +57,11 @@ void Rank1::KeyUp(unsigned int keyCode)
 	case SDLK_UP:
 		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_OPTION1);
 		break;
+	case SDLK_SPACE:
+		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_RankScene);
+		break;
 	case SDLK_DOWN:
 		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_QUIT);
-		break;
-	case SDLK_SPACE:
-		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_RANK1);
 		break;
 
 	default:

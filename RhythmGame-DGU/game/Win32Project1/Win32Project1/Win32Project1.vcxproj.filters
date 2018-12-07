@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\Start_Render">
       <UniqueIdentifier>{08e3f0c7-2d99-4696-891a-5c5b581a2c71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Scene\RankScene">
+      <UniqueIdentifier>{a3d75e44-6315-489f-8684-437bfcdc678d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -93,9 +96,6 @@
     <ClCompile Include="StartMenuScene.cpp">
       <Filter>소스 파일\Scene\StartMenu</Filter>
     </ClCompile>
-    <ClCompile Include="OptionScene.cpp">
-      <Filter>소스 파일\Scene\OptionScene</Filter>
-    </ClCompile>
     <ClCompile Include="InputManager.cpp">
       <Filter>소스 파일\System</Filter>
     </ClCompile>
@@ -107,6 +107,12 @@
     </ClCompile>
     <ClCompile Include="quit.cpp">
       <Filter>소스 파일\Start_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RankScene.cpp">
+      <Filter>소스 파일\Scene\RankScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScene.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -184,6 +190,9 @@
     </ClInclude>
     <ClInclude Include="quit.h">
       <Filter>소스 파일\Start_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RankScene.h">
+      <Filter>소스 파일\Scene\RankScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

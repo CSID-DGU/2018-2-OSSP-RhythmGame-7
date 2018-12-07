@@ -36,19 +36,10 @@ void GameScene::Init()
 	_backgroundSprite = new Sprite("backgroundspr", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
 		GameSystem::GetInstance()->GetWindowHeight() / 2);
-
-
-
-
+	   	 
 	float totalPlayingSec = GameSystem::GetInstance()->GetTotalPlayingTime() / 1000.0f;
-
 	
-	
-	
-
 	float tempo = (float)BPM / 60.0f;
-
-
 
 	int trackHeightMin = GameSystem::GetInstance()->GetWindowHeight();
 	int trackHeight = (float)trackHeightMin * (float)totalPlayingSec * tempo;

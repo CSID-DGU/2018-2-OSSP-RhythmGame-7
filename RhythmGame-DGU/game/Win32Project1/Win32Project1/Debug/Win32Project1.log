@@ -1,18 +1,6 @@
-﻿  OptionScene.cpp
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  ResultScene.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\resultscene.cpp(28): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscene.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\resultscene.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
   Win32Project1.vcxproj -> C:\Users\성연재\Documents\GitHub\2018-2-OSSP-RhythmGame-7\RhythmGame-DGU\game\Win32Project1\Debug\Win32Project1.exe

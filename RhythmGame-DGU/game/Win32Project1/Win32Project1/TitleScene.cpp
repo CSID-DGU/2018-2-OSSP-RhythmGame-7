@@ -36,7 +36,7 @@ void TitleScene::Update(int deltaTime)
 {
 	char text[256];
 	sprintf(text, "DONGGUK Rhythm Tak");
-	_test->SetText(text, 800, 700);
+	_test->SetText(text, 150, 700);
 	_backgroundSprite->Update(deltaTime);
 }
 
