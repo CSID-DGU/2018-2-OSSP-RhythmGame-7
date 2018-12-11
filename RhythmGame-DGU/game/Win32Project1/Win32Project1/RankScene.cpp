@@ -6,11 +6,11 @@
 #include "Rankscene.h"
 #include "Font.h"
 
-static int score1 = 1800;
-static int score2 = 1500;
-static int score3 = 900;
-static int score4 = 700;
-static int score5 = 200;
+static int score1 = 0;
+static int score2 = 0;
+static int score3 = 0;
+static int score4 = 0;
+static int score5 = 0;
 
 RankScene::RankScene()
 {
@@ -63,26 +63,26 @@ void RankScene::Update(int deltaTime)
 
 	char text[256];
 	sprintf(text, "RANK SCENE");
-	_rankTitle->SetText(text, 500, 200);
+	_rankTitle->SetText(text, 550, 200);
 
 	char text1[256];
-	sprintf(text1, "1st   %d", score1);
+	sprintf(text1, "1st :  %d", score1);
 	_score1->SetText(text1, 500, 300);
 
 	char text2[256];
-	sprintf(text2, "2rd   %d", score2);
+	sprintf(text2, "2rd :  %d", score2);
 	_score2->SetText(text2, 500, 350);
 
 	char text3[256];
-	sprintf(text3, "3th   %d", score3);
+	sprintf(text3, "3th :  %d", score3);
 	_score3->SetText(text3, 500, 400);
 
 	char text4[256];
-	sprintf(text4, "4th   %d", score4);
+	sprintf(text4, "4th :  %d", score4);
 	_score4->SetText(text4, 500, 450);
 
 	char text5[256];
-	sprintf(text5, "5th   %d", score5);
+	sprintf(text5, "5th :  %d", score5);
 	_score5->SetText(text5, 500, 500);
 
 	_backgroundSprite->Update(deltaTime);

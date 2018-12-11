@@ -114,6 +114,9 @@
     <ClCompile Include="OptionScene.cpp">
       <Filter>소스 파일\Scene\OptionScene</Filter>
     </ClCompile>
+    <ClCompile Include="Font1.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sprite.h">
@@ -193,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="RankScene.h">
       <Filter>소스 파일\Scene\RankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Font1.h">
+      <Filter>소스 파일\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

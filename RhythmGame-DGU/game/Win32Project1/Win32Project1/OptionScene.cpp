@@ -75,8 +75,8 @@ void OptionScene::Update(int deltaTime)
 	_test7->SetText(text7, 850, 350);
 
 	char text8[256];
-	sprintf(text8, "Press the key for selecting your option");
-	_test8->SetText(text8, 300, 800);
+	sprintf(text8, "Please press the key to set options");
+	_test8->SetText(text8, 400, 800);
 
 	_backgroundSprite->Update(deltaTime);
 
@@ -117,15 +117,15 @@ void OptionScene::KeyUp(unsigned int keyCode)
 		BPM = 180;
 
 		break;
-	case SDLK_4:
+	case SDLK_5:
 		TRACK_COUNT = 5;
 
 		break;
-	case SDLK_5:
+	case SDLK_7:
 		TRACK_COUNT = 7;
 
 		break;
-	case SDLK_6:
+	case SDLK_9:
 		TRACK_COUNT = 9;
 
 	default:

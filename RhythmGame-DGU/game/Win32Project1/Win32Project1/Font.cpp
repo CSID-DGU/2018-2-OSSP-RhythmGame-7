@@ -17,9 +17,7 @@ Font::~Font()
 void Font::SetText(const char* text, int x, int y)
 {
 	SDL_Surface* fontSurface = TTF_RenderText_Solid(_font, text, _fontColor);
-	_texture = SDL_CreateTextureFromSurface(
-		GameSystem::GetInstance()->GetRenderer(),
-		fontSurface);
+	_texture = SDL_CreateTextureFromSurface(GameSystem::GetInstance()->GetRenderer(),fontSurface);
 
 	SDL_QueryTexture(_texture, NULL, NULL, &_srcRect.w, &_srcRect.h);
 

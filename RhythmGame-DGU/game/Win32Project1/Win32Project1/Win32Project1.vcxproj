@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="BMSParser.cpp" />
     <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Font1.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="InputManager.cpp" />
@@ -194,6 +195,7 @@
     <ClInclude Include="Track.h" />
     <ClInclude Include="StartMenuScene.h" />
     <ClInclude Include="RankScene.h" />
+    <ClInclude Include="Font1.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="simplebmxplayer.rc" />

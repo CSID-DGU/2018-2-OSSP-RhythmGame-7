@@ -4,7 +4,7 @@
 #include "SceneManager.h"
 
 #include "TitleScene.h"
-#include "Font.h"
+#include "Font1.h"
 
 
 TitleScene::TitleScene()
@@ -17,7 +17,7 @@ TitleScene::~TitleScene()
 
 void TitleScene::Init()
 {
-	_test = new Font("arialbd.ttf", 24);
+	_test = new Font1("arialbd.ttf", 24);
 
 	_backgroundSprite = new Sprite("backgroundspr", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
@@ -35,8 +35,8 @@ void TitleScene::Deinit()
 void TitleScene::Update(int deltaTime)
 {
 	char text[256];
-	sprintf(text, "DONGGUK Rhythm Tak");
-	_test->SetText(text, 150, 700);
+	sprintf(text, "Dongguk Rhythm Tak");
+	_test->SetText(text, 200, 700);
 	_backgroundSprite->Update(deltaTime);
 }
 
