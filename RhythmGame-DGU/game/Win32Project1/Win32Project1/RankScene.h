@@ -11,6 +11,7 @@ extern int socre5;
 
 class Sprite;
 class Font;
+class Font_rk;
 
 class RankScene : public Scene
 {
@@ -21,7 +22,7 @@ private:
 
 	Font* _test;
 
-	Font* _rankTitle;
+	Font_rk* _rankTitle;
 	Font* _score1;
 	Font* _score2;
 	Font* _score3;

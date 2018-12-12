@@ -3,14 +3,14 @@
 #include "Scene.h"
 
 class Sprite;
-class Font;
+class Font_r;
 
 class ResultScene : public Scene
 {
 private:
 	//Sprite* _backgroundSprite;
-	Font* _score;
-	Font* _maxCombo;
+	Font_r* _score;
+	Font_r* _maxCombo;
 
 public:
 	ResultScene();

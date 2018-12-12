@@ -3,7 +3,7 @@
 #include "Scene.h"
 
 class Sprite;
-class Font;
+class Font_o;
 
 extern int BPM;
 extern int TRACK_COUNT;
@@ -15,15 +15,15 @@ private:
 	int _updateTick;
 	int _waitTick;
 
-	Font* _test;
-	Font* _test1;
-	Font* _test2;
-	Font* _test3;
-	Font* _test4;
-	Font* _test5;
-	Font* _test6;
-	Font* _test7;
-	Font* _test8;
+	Font_o* _test;
+	Font_o* _test1;
+	Font_o* _test2;
+	Font_o* _test3;
+	Font_o* _test4;
+	Font_o* _test5;
+	Font_o* _test6;
+	Font_o* _test7;
+	Font_o* _test8;
 
 	OptionScene* _bpm;
 

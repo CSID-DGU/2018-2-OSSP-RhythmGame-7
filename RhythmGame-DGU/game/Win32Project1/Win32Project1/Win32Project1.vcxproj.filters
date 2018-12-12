@@ -114,8 +114,17 @@
     <ClCompile Include="OptionScene.cpp">
       <Filter>소스 파일\Scene\OptionScene</Filter>
     </ClCompile>
-    <ClCompile Include="Font1.cpp">
-      <Filter>소스 파일\Graphics</Filter>
+    <ClCompile Include="font_title.cpp">
+      <Filter>소스 파일\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="font_option.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="font_result.cpp">
+      <Filter>소스 파일\Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="font_rank.cpp">
+      <Filter>소스 파일\Scene\RankScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -197,8 +206,17 @@
     <ClInclude Include="RankScene.h">
       <Filter>소스 파일\Scene\RankScene</Filter>
     </ClInclude>
-    <ClInclude Include="Font1.h">
-      <Filter>소스 파일\Graphics</Filter>
+    <ClInclude Include="font_title.h">
+      <Filter>소스 파일\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="font_option.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="font_result.h">
+      <Filter>소스 파일\Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="font_rank.h">
+      <Filter>소스 파일\Scene\RankScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

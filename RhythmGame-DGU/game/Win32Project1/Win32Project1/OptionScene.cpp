@@ -4,8 +4,8 @@
 #include "SceneManager.h"
 
 #include "OptionScene.h"
-#include "Font.h"
-
+#include "font_option.h"
+#include "font_option_exp.h"
 int BPM = 60;
 int TRACK_COUNT = 5;
 
@@ -20,14 +20,14 @@ OptionScene::~OptionScene()
 void OptionScene::Init()
 {
 	
-	_test1 = new Font("arialbd.ttf", 50);
-	_test2 = new Font("arialbd.ttf", 50);
-	_test3 = new Font("arialbd.ttf", 50);
-	_test4 = new Font("arialbd.ttf", 50);
-	_test5 = new Font("arialbd.ttf", 50);
-	_test6 = new Font("arialbd.ttf", 50);
-	_test7 = new Font("arialbd.ttf", 50);
-	_test8 = new Font("arialbd.ttf", 50);
+	_test1 = new Font_o("arialbd.ttf", 24);
+	_test2 = new Font_o("arialbd.ttf", 24);
+	_test3 = new Font_o("arialbd.ttf", 24);
+	_test4 = new Font_o("arialbd.ttf", 24);
+	_test5 = new Font_o("arialbd.ttf", 24);
+	_test6 = new Font_o("arialbd.ttf", 24);
+	_test7 = new Font_o("arialbd.ttf", 24);
+	_test8 = new Font_o("arialbd.ttf", 24);
 
 	_backgroundSprite = new Sprite("option_bgd", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
@@ -72,11 +72,11 @@ void OptionScene::Update(int deltaTime)
 
 	char text7[256];
 	sprintf(text7, "Press the 'B'");
-	_test7->SetText(text7, 850, 350);
+	_test7->SetText(text7, 830, 350);
 
 	char text8[256];
 	sprintf(text8, "Please press the key to set options");
-	_test8->SetText(text8, 400, 800);
+	_test8->SetText(text8, 230, 800);
 
 	_backgroundSprite->Update(deltaTime);
 

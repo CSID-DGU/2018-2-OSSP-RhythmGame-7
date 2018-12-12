@@ -3,7 +3,7 @@
 #include "Scene.h"
 
 class Sprite;
-class Font1;
+class Font_t;
 
 class TitleScene : public Scene
 {
@@ -12,8 +12,8 @@ private:
 	int _updateTick;
 	int _waitTick;
 
-	Font1* _test;
-	Font1* _test1;
+	Font_t* _test;
+	Font_t* _test1;
 
 public:
 	TitleScene();

@@ -3,7 +3,7 @@
 #include "SceneManager.h"
 
 #include "ResultScene.h"
-#include "Font.h"
+#include "font_result.h"
 #include "stdio.h"
 
 
@@ -17,23 +17,23 @@ ResultScene::~ResultScene()
 
 void ResultScene::Init()
 {
-	_backgroundSprite = new Sprite("backgroundspr", true);
+	_backgroundSprite = new Sprite("result_scene", true);
 	_backgroundSprite->SetPosition(GameSystem::GetInstance()->GetWindowWidth() / 2,
 		GameSystem::GetInstance()->GetWindowHeight() / 2);
 
 	int finalScore = GameSystem::GetInstance()->GetFinalScore();
 
-	_score = new Font("arialbd.ttf", 24);
+	_score = new Font_r("pcsenior.ttf", 24);
 	char text[256];
-	sprintf(text, "Final Score %d", finalScore);
-	_score->SetText(text, 100, 500);
+	sprintf(text, "Final Score : %d", finalScore);
+	_score->SetText(text, 300, 300);
 
 	// Result Max Combo
 	int MaxCombo = GameSystem::GetInstance()->GetMaxCombo();
-	_maxCombo = new Font("arialbd.ttf", 24);
+	_maxCombo = new Font_r("pcsenior.ttf", 24);
 	char textMaxCombo[256];
-	sprintf(textMaxCombo, "Final Max Combo : %d", MaxCombo);
-	_maxCombo->SetText(textMaxCombo, 100, 300);
+	sprintf(textMaxCombo, "Max Combo : %d", MaxCombo);
+	_maxCombo->SetText(textMaxCombo, 300, 500);
 	
 }
 

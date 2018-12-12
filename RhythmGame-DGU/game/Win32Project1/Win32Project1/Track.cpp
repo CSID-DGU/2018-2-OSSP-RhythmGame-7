@@ -162,10 +162,9 @@ void Track::Update(int deltaTime)
 				note->Passed();
 				printf("Fail Effect\n");
 				life--;
-				printf("life : %d\n", life);
+				//printf("life : %d\n", life);
 				_failEffectSprite->Play();
 				_combo = 0;
-				
 			}
 		}
 	}
@@ -229,7 +228,6 @@ void Track::Render()
 		_lifeBar1Sprite->Play();
 	
 	}
-
 
 }
 
@@ -348,16 +346,11 @@ void Track::KeyDown()
 	}
 	else
 	{
-		
 		_combo = 0;
 	}
 	
 
 }
-
-
-
-
 
 void Track::KeyUp()
 {

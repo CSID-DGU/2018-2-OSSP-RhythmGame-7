@@ -5,6 +5,7 @@
 
 #include "Rankscene.h"
 #include "Font.h"
+#include "font_rank.h"
 
 static int score1 = 0;
 static int score2 = 0;
@@ -23,7 +24,7 @@ RankScene::~RankScene()
 void RankScene::Init()
 {
 
-	_rankTitle = new Font("arialbd.ttf", 50);
+	_rankTitle = new Font_rk("arialbd.ttf", 50);
 	_score1 = new Font("arialbd.ttf", 50);
 	_score2 = new Font("arialbd.ttf", 50);
 	_score3 = new Font("arialbd.ttf", 50);
@@ -62,28 +63,28 @@ void RankScene::Update(int deltaTime)
 */
 
 	char text[256];
-	sprintf(text, "RANK SCENE");
-	_rankTitle->SetText(text, 550, 200);
+	sprintf(text, "RANKING");
+	_rankTitle->SetText(text, 480, 200);
 
 	char text1[256];
 	sprintf(text1, "1st :  %d", score1);
-	_score1->SetText(text1, 500, 300);
+	_score1->SetText(text1, 500, 450);
 
 	char text2[256];
 	sprintf(text2, "2rd :  %d", score2);
-	_score2->SetText(text2, 500, 350);
+	_score2->SetText(text2, 500, 500);
 
 	char text3[256];
 	sprintf(text3, "3th :  %d", score3);
-	_score3->SetText(text3, 500, 400);
+	_score3->SetText(text3, 500, 550);
 
 	char text4[256];
 	sprintf(text4, "4th :  %d", score4);
-	_score4->SetText(text4, 500, 450);
+	_score4->SetText(text4, 500, 600);
 
 	char text5[256];
 	sprintf(text5, "5th :  %d", score5);
-	_score5->SetText(text5, 500, 500);
+	_score5->SetText(text5, 500, 650);
 
 	_backgroundSprite->Update(deltaTime);
 

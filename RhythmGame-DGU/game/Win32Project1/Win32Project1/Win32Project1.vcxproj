@@ -145,9 +145,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BMSParser.cpp" />
+    <ClCompile Include="BMSParser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Font.cpp" />
-    <ClCompile Include="Font1.cpp" />
+    <ClCompile Include="font_option.cpp" />
+    <ClCompile Include="font_rank.cpp" />
+    <ClCompile Include="font_result.cpp" />
+    <ClCompile Include="font_title.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="InputManager.cpp" />
@@ -170,16 +178,43 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
-    <ClInclude Include="BMS.h" />
-    <ClInclude Include="BMSParser.h" />
-    <ClInclude Include="BMSUtils.h" />
+    <ClInclude Include="BMS.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="BMSParser.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="BMSUtils.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Font.h" />
+    <ClInclude Include="font_rank.h" />
+    <ClInclude Include="font_result.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="GameSystem.h" />
-    <ClInclude Include="HeaderField.h" />
+    <ClInclude Include="HeaderField.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="InputManager.h" />
-    <ClInclude Include="Measure.h" />
+    <ClInclude Include="Measure.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Note.h" />
     <ClInclude Include="Option1.h" />
     <ClInclude Include="OptionScene.h" />
@@ -195,7 +230,8 @@
     <ClInclude Include="Track.h" />
     <ClInclude Include="StartMenuScene.h" />
     <ClInclude Include="RankScene.h" />
-    <ClInclude Include="Font1.h" />
+    <ClInclude Include="font_title.h" />
+    <ClInclude Include="font_option.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="simplebmxplayer.rc" />
