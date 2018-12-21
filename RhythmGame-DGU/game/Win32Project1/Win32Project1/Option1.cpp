@@ -58,7 +58,7 @@ void Option1::KeyUp(unsigned int keyCode)
 		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_STARTMENU);
 		break;
 	case SDLK_SPACE:
-		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_OPTION);
+		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_OPTIONx1);
 		break;
 	case SDLK_DOWN:
 		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_RANK1);

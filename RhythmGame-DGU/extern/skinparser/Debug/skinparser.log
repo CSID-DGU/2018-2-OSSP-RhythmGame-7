@@ -1,11 +1,26 @@
-﻿  skinutil.cpp
-c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skinutil.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
-  skinoption.cpp
-c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skinoption.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
-  skinlr2.cpp
-c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+﻿  main.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
   skin.cpp
-c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
-  main.cpp
-c:\users\starlight\desktop\학업\공개sw프로젝트\프로젝트\rhythmgame-master\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skinlr2.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skin.h(7): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skinoption.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skinoption.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
+  skintexturefont.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(70): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(72): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(77): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(81): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skintexturefont.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+  skinutil.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\extern\skinparser\skinutil.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'tinyxml2.h': No such file or directory
   코드를 생성하고 있습니다...

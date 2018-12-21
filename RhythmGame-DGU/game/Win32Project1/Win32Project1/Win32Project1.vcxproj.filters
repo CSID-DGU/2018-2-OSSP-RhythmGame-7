@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\Scene\RankScene">
       <UniqueIdentifier>{a3d75e44-6315-489f-8684-437bfcdc678d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\MusicList">
+      <UniqueIdentifier>{798769d5-c9d2-4fb7-ab35-3cf422623d3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -111,9 +114,6 @@
     <ClCompile Include="RankScene.cpp">
       <Filter>소스 파일\Scene\RankScene</Filter>
     </ClCompile>
-    <ClCompile Include="OptionScene.cpp">
-      <Filter>소스 파일\Scene\OptionScene</Filter>
-    </ClCompile>
     <ClCompile Include="font_title.cpp">
       <Filter>소스 파일\Scene\Title</Filter>
     </ClCompile>
@@ -125,6 +125,51 @@
     </ClCompile>
     <ClCompile Include="font_rank.cpp">
       <Filter>소스 파일\Scene\RankScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene1.cpp">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene2.cpp">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene3.cpp">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="musiclist.cpp">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="musiclist1.cpp">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="musiclist2.cpp">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="musiclist3.cpp">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClCompile>
+    <ClCompile Include="font_option_select.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenex1.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenex2.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenex3.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenek5.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenek7.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScenek9.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionSceneback.cpp">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -188,9 +233,6 @@
     <ClInclude Include="StartMenuScene.h">
       <Filter>소스 파일\Scene\StartMenu</Filter>
     </ClInclude>
-    <ClInclude Include="OptionScene.h">
-      <Filter>소스 파일\Scene\OptionScene</Filter>
-    </ClInclude>
     <ClInclude Include="InputManager.h">
       <Filter>소스 파일\System</Filter>
     </ClInclude>
@@ -217,6 +259,51 @@
     </ClInclude>
     <ClInclude Include="font_rank.h">
       <Filter>소스 파일\Scene\RankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene1.h">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene2.h">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene3.h">
+      <Filter>소스 파일\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="musiclist.h">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClInclude>
+    <ClInclude Include="musiclist1.h">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClInclude>
+    <ClInclude Include="musiclist2.h">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClInclude>
+    <ClInclude Include="musiclist3.h">
+      <Filter>소스 파일\MusicList</Filter>
+    </ClInclude>
+    <ClInclude Include="font_option_select.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenex1.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenex2.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenex3.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenek5.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenek7.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScenek9.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionSceneback.h">
+      <Filter>소스 파일\Scene\OptionScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

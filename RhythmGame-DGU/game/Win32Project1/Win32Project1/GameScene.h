@@ -3,7 +3,7 @@
 //#include "sdl_image.h"
 #include "Scene.h"
 #include "Array.h"
-#include "OptionScene.h"
+#include "OptionScenex1.h"
 
 class Sprite;
 class Track;

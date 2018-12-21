@@ -47,7 +47,7 @@ void StartMenuScene::KeyUp(unsigned int keyCode)
 	switch (keyCode)
 	{
 	case SDLK_SPACE:
-		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_GAME);
+		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_MUSICLIST);
 		break;
 	case SDLK_DOWN:
 		SceneManager::GetInstance()->ChangeScene(eScene::SCENE_OPTION1);

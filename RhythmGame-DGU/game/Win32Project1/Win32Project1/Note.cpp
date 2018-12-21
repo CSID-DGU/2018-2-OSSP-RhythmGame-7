@@ -15,7 +15,7 @@ Note::Note(float startSec, int judgeLineOffset, int x)
 	_isLive = true;
 
 	_trackHeight = GameSystem::GetInstance()->GetTrackHeight();
-	int noteTick = startSec * 1000;
+	int noteTick = startSec * 2500;
 	int startTick = GameSystem::GetInstance()->GetTotalPlayingTime() - noteTick;
 
 	_updateDuration = startTick;

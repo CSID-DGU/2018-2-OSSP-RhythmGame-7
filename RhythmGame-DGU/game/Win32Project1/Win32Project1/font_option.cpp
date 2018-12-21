@@ -5,7 +5,7 @@
 Font_o::Font_o(const char* fontName, int fontSize)
 {
 	_font = TTF_OpenFont("../Resources/Font/pcsenior.ttf", 24);
-	_fontColor = { 237, 169, 0 };
+	_fontColor = { 255, 255, 255 };
 }
 
 Font_o::~Font_o()

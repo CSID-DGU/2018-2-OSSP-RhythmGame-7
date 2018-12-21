@@ -41,7 +41,7 @@ void GameSystem::Quit()
 
 int GameSystem::GetTotalPlayingTime()
 {
-	int playingTime = 60 * 10 * 10;
+	int playingTime = 60 * 10 * 100;
 	return playingTime;
 }
 

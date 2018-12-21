@@ -153,16 +153,29 @@
     </ClCompile>
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="font_option.cpp" />
+    <ClCompile Include="font_option_select.cpp" />
     <ClCompile Include="font_rank.cpp" />
     <ClCompile Include="font_result.cpp" />
     <ClCompile Include="font_title.cpp" />
     <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameScene1.cpp" />
+    <ClCompile Include="GameScene2.cpp" />
+    <ClCompile Include="GameScene3.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="musiclist.cpp" />
+    <ClCompile Include="musiclist1.cpp" />
+    <ClCompile Include="musiclist2.cpp" />
+    <ClCompile Include="musiclist3.cpp" />
     <ClCompile Include="Note.cpp" />
     <ClCompile Include="Option1.cpp" />
-    <ClCompile Include="OptionScene.cpp" />
+    <ClCompile Include="OptionSceneback.cpp" />
+    <ClCompile Include="OptionScenek5.cpp" />
+    <ClCompile Include="OptionScenek7.cpp" />
+    <ClCompile Include="OptionScenex2.cpp" />
+    <ClCompile Include="OptionScenek9.cpp" />
+    <ClCompile Include="OptionScenex3.cpp" />
     <ClCompile Include="quit.cpp" />
     <ClCompile Include="Rank1.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
@@ -175,6 +188,7 @@
     <ClCompile Include="Track.cpp" />
     <ClCompile Include="StartMenuScene.cpp" />
     <ClCompile Include="RankScene.cpp" />
+    <ClCompile Include="OptionScenex1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
@@ -198,9 +212,13 @@
     </ClInclude>
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="Font.h" />
+    <ClInclude Include="font_option_select.h" />
     <ClInclude Include="font_rank.h" />
     <ClInclude Include="font_result.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameScene1.h" />
+    <ClInclude Include="GameScene2.h" />
+    <ClInclude Include="GameScene3.h" />
     <ClInclude Include="GameSystem.h" />
     <ClInclude Include="HeaderField.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -215,9 +233,19 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="musiclist.h" />
+    <ClInclude Include="musiclist1.h" />
+    <ClInclude Include="musiclist2.h" />
+    <ClInclude Include="musiclist3.h" />
     <ClInclude Include="Note.h" />
     <ClInclude Include="Option1.h" />
-    <ClInclude Include="OptionScene.h" />
+    <ClInclude Include="OptionSceneback.h" />
+    <ClInclude Include="OptionScenek5.h" />
+    <ClInclude Include="OptionScenek7.h" />
+    <ClInclude Include="OptionScenex1.h" />
+    <ClInclude Include="OptionScenex2.h" />
+    <ClInclude Include="OptionScenek9.h" />
+    <ClInclude Include="OptionScenex3.h" />
     <ClInclude Include="quit.h" />
     <ClInclude Include="Rank1.h" />
     <ClInclude Include="ResourceManager.h" />

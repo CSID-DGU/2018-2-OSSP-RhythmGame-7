@@ -1,9 +1,225 @@
-﻿  GameScene.cpp
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(45): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  Font.cpp
+  font_option.cpp
+  font_option_select.cpp
+  font_rank.cpp
+  font_result.cpp
+  font_title.cpp
+  GameScene.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(54): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
-c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene.cpp(145): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  GameScene1.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene1.cpp(54): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene1.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene1.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  GameScene2.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene2.cpp(54): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene2.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene2.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  GameScene3.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene3.cpp(54): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene3.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\gamescene3.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  GameSystem.cpp
+  InputManager.cpp
+  main.cpp
+  musiclist.cpp
+  musiclist1.cpp
+  musiclist2.cpp
+  musiclist3.cpp
+  Note.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\note.cpp(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\note.cpp(52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Option1.cpp
+  OptionSceneback.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionsceneback.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\bmsparser.h(91): warning C4715: 'BMSParser::GetBMS': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  OptionScenek5.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek5.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  OptionScenek7.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek7.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  OptionScenex2.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex2.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  OptionScenek9.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenek9.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  OptionScenex3.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex3.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  quit.cpp
+  Rank1.cpp
+  ResourceManager.cpp
+  ResultScene.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\resultscene.cpp(28): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\resultscene.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  Scene.cpp
   SceneManager.cpp
+  Sprite.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(40): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(36): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(39): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\sprite.cpp(42): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: 'strtok' 선언을 참조하십시오.
+  Texture.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\texture.cpp(11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\texture.cpp(36): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\texture.cpp(37): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TitleScene.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\titlescene.cpp(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  Track.cpp
+  StartMenuScene.cpp
+  RankScene.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\rankscene.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  OptionScenex1.cpp
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(66): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(78): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\성연재\documents\github\2018-2-ossp-rhythmgame-7\rhythmgame-dgu\game\win32project1\win32project1\optionscenex1.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
   코드를 생성하고 있습니다...
   Win32Project1.vcxproj -> C:\Users\성연재\Documents\GitHub\2018-2-OSSP-RhythmGame-7\RhythmGame-DGU\game\Win32Project1\Debug\Win32Project1.exe
